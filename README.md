@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-eternal-list.svg)](https://www.npmjs.com/package/react-eternal-list) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## [Demo](react-eternal-list.rinas.in)
+## [Demo](http://react-eternal-list.rinas.in)
 
 ## Install
 
