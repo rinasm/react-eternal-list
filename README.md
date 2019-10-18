@@ -1,12 +1,10 @@
 # react-eternal-list
 
-> This package can render infinite list items without memory issues as it is using binary tree algorithm to hide and show elements.
+> This package can render infinite list items without memory issues as it is using binary tree algorithm to remove and display elements while scrolling. check the demo and see how it works!
 
 [![NPM](https://img.shields.io/npm/v/react-eternal-list.svg)](https://www.npmjs.com/package/react-eternal-list) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Demo
-
-www.rinas.in/works/react-eternal-list
+## [Demo](react-eternal-list.rinas.in)
 
 ## Install
 
