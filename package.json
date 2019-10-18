@@ -1,6 +1,6 @@
 {
   "name": "react-eternal-list",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "This package can render infinite list items without memory issues as it is using binary tree algorithm to hide and show elements.",
   "author": "rinasm",
   "license": "MIT",

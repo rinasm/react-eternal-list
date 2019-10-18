@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/react-eternal-list.svg)](https://www.npmjs.com/package/react-eternal-list) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Demo
+
+www.rinas.in/works/react-eternal-list
+
 ## Install
 
 ```bash
@@ -15,12 +19,21 @@ npm install --save react-eternal-list
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-eternal-list'
+import ReactEternalList from 'react-eternal-list'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <div className='YourApp'>
+        <div className='YourList'>
+          <ReactEternalList  
+            list={} /* data ( Array of objects ) */
+            updateRate={} /* Update rate ( Integer ) */ 
+            onUpdate={} /* A Callback function which will get called when list visibility update ( Function ) */
+            component={} /* A Function that should return Componet which you want to render as a list item ( Function ) */
+          />
+        </div>
+      </div>
     )
   }
 }
